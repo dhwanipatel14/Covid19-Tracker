@@ -1,5 +1,7 @@
 package io.javabrains.coronavirustracker.model;
-
+/*
+ * Class to keep record of total cases reported by each country and its state and makes required calculation.
+ */
 public class LocationStatistics {
     private String state;
     private String country;
@@ -40,10 +42,6 @@ public class LocationStatistics {
 
     @Override
     public String toString() {
-        return "LocationStatistics{" +
-                "state='" + state + '\'' +
-                ", country='" + country + '\'' +
-                ", totalNewCases=" + totalNewCases +
-                '}';
+        return "LocationStatistics{" + "state='" + state + '\'' + ", country='" + country + ", totalNewCases=" + totalNewCases + }';
     }
 }
